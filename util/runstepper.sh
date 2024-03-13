@@ -11,7 +11,7 @@ function runstepper
     typeset dolog=$4
 
     # teststepper
-    typeset stp=~/comdb2_repos/comdb2/build/tests/tools/stepper
+    typeset stp=tmp/comdb2/build/tests/tools/stepper
 
     [[ "$dolog" == "1" ]] &&  echo "> $stp $db $tcs > $log 3>&1"
 
